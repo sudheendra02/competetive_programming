@@ -1,6 +1,5 @@
 class binarytree(object):
 	class node(object):
-		"""docstring for node"""
 		def __init__(self,object):
 			self.data=object
 			self.left=None
