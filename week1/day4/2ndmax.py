@@ -13,7 +13,6 @@ def inorder(root):
 def find_second_largest(root_node):
 	global a
 	a=[]
-	# Find the second largest item in the binary search tree
 	a = inorder(root_node)
 	# print(len(a))
 	if len(a)<2:
